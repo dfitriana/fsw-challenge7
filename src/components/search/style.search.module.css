@@ -50,21 +50,21 @@
   line-height: 18px;
 }
 
-.form-control:hover,
-.form-control:focus,
-.form-select:hover,
-.form-select:focus {
+.formControl:hover,
+.formControl:focus,
+.formSelect:hover,
+.formSelect:focus {
   border: 1px solid #5cb85f;
   box-shadow: none;
 }
 
-.people-icon {
+/* .people-icon {
   z-index: 100;
   position: absolute;
   right: 0;
   margin-top: 8px;
   margin-right: 8px;
-}
+} */
 
 /* .show {
     display: block;

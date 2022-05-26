@@ -62,6 +62,8 @@ export default function SearchBar() {
         </Button>
       </div>
     </Container>
+
+    
     
 
     </div>
