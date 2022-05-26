@@ -8,10 +8,9 @@ export default function Footer() {
       <div className={styles.footer}>
         <Container className={styles.container}>
           <div className={styles.item}>
-            Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000
-            <br />
-            binarcarrental@gmail.com <br />
-            081-233-334-808
+            <p className={styles.text}>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+            <p className={styles.text}>binarcarrental@gmail.com </p>
+            <p className={styles.text}>081-233-334-808</p>
           </div>
 
           <div className={styles.item}>
@@ -30,7 +29,7 @@ export default function Footer() {
           </div>
 
           <div className={styles.item}>
-            Connect with us
+            <p className={styles.text}>Connect with us</p>
             <div>
               <a className={styles.sosmedLink} href="index.html">
                 <img
@@ -71,7 +70,7 @@ export default function Footer() {
           </div>
 
           <div className={styles.item}>
-            Copyright Binar 2022
+            <p className={styles.text}>Copyright Binar 2022</p>
             <a href="index.html">
               <img
                 src="assets/img/logo.png"

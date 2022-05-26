@@ -9,18 +9,19 @@
   padding-right: 0px;
   padding-left: 0px;
   text-align: left;
-
+}
+.text {
   font-family: Helvetica;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 20px;
   color: #000000;
 }
 .item {
-  margin-right: 86px;
+  margin-right: 20px;
 }
-.itemLink{
+.itemLink {
   width: 150px;
   padding-right: 25px;
   color: #000;

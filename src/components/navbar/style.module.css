@@ -2,6 +2,7 @@
   background-color: #f1f3ff;
   position: fixed;
   width: 100%;
+  z-index: 125;
 }
 .container{
   display: flex;
@@ -29,6 +30,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
+  font-weight: 500;
 }
 .btn {
   background: #5cb85f;
