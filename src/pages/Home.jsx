@@ -1,19 +1,15 @@
 import React, { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Hero from "../components/homepage/Hero";
-import SearchBar from "../components/search/SearchBar";
-import CardResult from "../components/card/CardResult";
-import { Container } from "react-bootstrap";
+import Section2 from "../components/homepage/Section2";
 
 export default function Home() {
   return (
     <div>
       <Layout>
         <Hero />
-        <SearchBar />
-        <Container>
-          <CardResult />
-        </Container>
+        <Section2/>
+        
       </Layout>
     </div>
   );
