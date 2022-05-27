@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./style.hero.module.css";
 import { Button, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { LinkContainer } from 'react-router-bootstrap'
 
 export default function Hero() {
   return (
@@ -16,11 +14,9 @@ export default function Hero() {
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.
             </p>
-            
-            {/* <LinkContainer to="/search"> */}
-                <Button className={styles.btn}>Mulai Sewa Mobil</Button>
-            {/* </LinkContainer> */}
-            
+            <Button className={styles.btn} href="/cars">
+              Mulai Sewa Mobil
+            </Button>
           </div>
           <div className={styles.box2}>
             <div className={styles.bgHero}></div>
