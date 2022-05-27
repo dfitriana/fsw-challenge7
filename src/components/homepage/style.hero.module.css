@@ -14,7 +14,7 @@
   margin-right: 32px;
   width: 50%;
 }
-h1 {
+.h1 {
   width: 568px;
   font-family: Helvetica;
   font-style: normal;
@@ -23,7 +23,8 @@ h1 {
   line-height: 150%;
   color: #000000;
 }
-p {
+.p {
+  text-align: left;
   width: 468px;
   font-family: Helvetica;
   font-style: normal;

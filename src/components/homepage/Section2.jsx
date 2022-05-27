@@ -16,8 +16,8 @@ export default function Section2() {
         </div>
 
         <div className={styles.box2}>
-          <h1>Best Car Rental for any kind of trip in (Lokasimu)!</h1>
-          <p>
+          <h1 className={styles.h1}>Best Car Rental for any kind of trip in (Lokasimu)!</h1>
+          <p className={styles.p}>
             Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
             lebih murah dibandingkan yang lain, kondisi mobil baru, serta
             kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,

@@ -3,6 +3,7 @@
   display: flex;
   padding-right: 0px;
   padding-left: 0px;
+  text-align: left;
 }
 .box1 {
   width: 568px;
@@ -17,7 +18,7 @@
 .box2 {
   margin-top: 140px;
 }
-h1 {
+.h1 {
   width: 468px;
   font-family: Helvetica;
   font-style: normal;
@@ -26,8 +27,9 @@ h1 {
   line-height: 36px;
   color: #000000;
   margin-bottom: 24px;
+  text-align: left;
 }
-p {
+.p {
   width: 468px;
   font-family: Helvetica;
   font-style: normal;
@@ -36,6 +38,7 @@ p {
   line-height: 20px;
   color: #000000;
   margin-bottom: 16px;
+  text-align: left;
 }
 .item {
   display: flex;

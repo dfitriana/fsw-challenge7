@@ -8,8 +8,8 @@ export default function Hero() {
       <div className={styles.hero}>
         <Container className={styles.container}>
           <div className={styles.box1}>
-            <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
-            <p>
+            <h1 className={styles.h1}>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+            <p className={styles.p}>
               Selamat datang di Binar Car Rental. Kami menyediakan mobil
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.
