@@ -1,10 +1,10 @@
 /**
  * @file Manages database connection configuration.
- * @author Fikri Rahmat Nurhidayat
+ * @author Diyah Ayu Fitriana
  */
 
 /** Destruct environment variable to get database configuration */
-const { DB_USERNAME = "jiwchnle", DB_PASSWORD = "C-2rt3um1eqnSsSUPY3PDzqsQ2pSH_vO", DB_HOST = "satao.db.elephantsql.com", DB_NAME = "jiwchnle" } = process.env;
+const { DB_USERNAME = "jilkeiou", DB_PASSWORD = "V7TzxoODuLCQ7dmhalVZ5hQ1BYP2j0xJ", DB_HOST = "tiny.db.elephantsql.com", DB_NAME = "jilkeiou" } = process.env;
 
 module.exports = {
   development: {
