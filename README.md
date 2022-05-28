@@ -9,7 +9,7 @@ Sebelum memulai untuk menjalankan projek ini ada beberapa hal yang harus disiapk
 
 `Jalankan front-end dan back-end secara BERSAMAAAN (buka dua tab)`
 
-# FRONT-END
+## FRONT-END
 
 Buka folder project `fsw-challenge7`, lalu install semua dependencies, dengan menjalankan
 ```
@@ -21,7 +21,7 @@ Kemudian, jalankan program
 yarn start
 ```
 
-# BACK-END
+## BACK-END
 Buka folder project `fsw-challenge7`, lalu `cd/backend` untuk berpindah ke folder `backend`. Selanjutnya install semua dependencies, dengan menjalankan
 ```
 yarn install
