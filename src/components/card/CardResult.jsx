@@ -13,21 +13,19 @@ const CardResult = ({ car }) => {
           <Card.Title className="fw-bold mt-4">
             {manufacture}/{model}
           </Card.Title>
-          <Card.Text className="fw-bold mt-3">Rp. {rent} / Day</Card.Text>
-          <Card.Text className="mt-3" style={{ height: "90px" }}>
+          <Card.Text className="fw-bold mt-3" style={{ textAlign: "left"}}>Rp. {rent} / Day</Card.Text>
+          <Card.Text className="mt-3" style={{ height: "90px", textAlign: "left" }}>
             {description}
           </Card.Text>
-          <Card.Text>
-            {/* <i className="fw-bold mt-3"></i> */}
+          <Card.Text style={{ textAlign: "left"}}>
             <img src="assets/img/fi_settings.png" alt="" className="me-2" />
             {transmission}
           </Card.Text>
-          <Card.Text>
-            {/* <i className="fw-bold mt-3"></i> */}
+          <Card.Text style={{ textAlign: "left"}}>
             <img src="assets/img/fi_users.png" alt="" className="me-2" />
             {capacity} Orang
           </Card.Text>
-          <Card.Text className="mt-3">
+          <Card.Text className="mt-3" style={{ textAlign: "left"}}>
             <img src="assets/img/fi_calendar.png" alt="" className="me-2" />
             {year}
           </Card.Text>

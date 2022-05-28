@@ -52,7 +52,7 @@ const SearchCar = (props) => {
             <Col sm={10}>
               <Row>
                 <Col sm={3}>
-                  Tipe Driver
+                  Tipe Driver*
                   <Form.Select aria-label="Floating label select example" value={driver} onChange={(e) => setDriver(e.target.value)} required>
                     <option value="1">Pilih Tipe Driver</option>
                     <option value="2">Dengan Driver</option>
@@ -60,7 +60,7 @@ const SearchCar = (props) => {
                   </Form.Select>
                 </Col>
                 <Col sm={3}>
-                  Tanggal
+                  Tanggal*
                   <input type="date" id="date" className="form-control" value={tanggal} onChange={(e) => setTanggal(e.target.value)} required />
                 </Col>
                 <Col sm={3}>
