@@ -38,15 +38,6 @@ p {
   margin-right: 26px;
   border: none;
 }
-.item {
-  width: 619px;
-  height: 270px;
-  background: #f1f3ff;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  display: flex;
-  margin-bottom: 30px;
-}
 .img {
   width: 80px;
   height: 80px;

@@ -2,6 +2,10 @@ import React from "react";
 import styles from "./style.section4.module.css";
 import { Container } from "react-bootstrap";
 import { StarFill } from "react-bootstrap-icons";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import { ChevronLeft, ChevronRight } from "react-bootstrap-icons";
 
 const testimoni = [
   {
@@ -34,6 +38,9 @@ const testimoni = [
   },
 ];
 
+const prevIcon = <ChevronLeft/>;
+const nextIcon = <ChevronRight/>;
+
 export default function Section4() {
   return (
     <>
@@ -43,30 +50,46 @@ export default function Section4() {
 
         <div className="row mt-5">
           <div className="col-12 m-auto">
-            <div className="owlCarousel">
+            <OwlCarousel
+              center
+              items="2"
+              autoplay
+              autoWidth
+              loop
+              margin={32}
+              nav
+              // eslint-disable-next-line no-sequences
+              navText={prevIcon, nextIcon}
+              className="owl-theme"
+            >
               {testimoni.map((a) => (
-                <div className={styles.item}>
-                  <img
-                    src={a.img}
-                    alt="img"
-                    className={styles.img}
-                  />
+                <div
+                  className="item"
+                  style={{
+                    width: "619px",
+                    height: "270px",
+                    background: "#f1f3ff",
+                    boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.15)",
+                    borderRadius: "8px",
+                    display: "flex",
+                    marginBottom: "30px",
+                  }}
+                >
+                  <img src={a.img} alt="img" className={styles.img} />
                   <div className={styles.testimoni}>
                     <div className={styles.ratingContainer}>
-                        <StarFill className={styles.checked}/>
-                        <StarFill className={styles.checked}/>
-                        <StarFill className={styles.checked}/>
-                        <StarFill className={styles.checked}/>
-                        <StarFill className={styles.checked}/>
+                      <StarFill className={styles.checked} />
+                      <StarFill className={styles.checked} />
+                      <StarFill className={styles.checked} />
+                      <StarFill className={styles.checked} />
+                      <StarFill className={styles.checked} />
                     </div>
-                    <p className={styles.quote}>
-                      “{a.quote}”
-                    </p>
+                    <p className={styles.quote}>“{a.quote}”</p>
                     <p className={styles.name}>{a.name}</p>
                   </div>
                 </div>
               ))}
-            </div>
+            </OwlCarousel>
           </div>
         </div>
       </Container>
